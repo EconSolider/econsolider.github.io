@@ -32,7 +32,7 @@ git push
 
 ### 2. Enjoy
 
-Fire up a browser and go to `https://<username>.github.io`
+Fire up a browser and go to `https://econsolider.github.io`
 
 
 
