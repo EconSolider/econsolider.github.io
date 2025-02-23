@@ -1,12 +1,8 @@
-- <strong>S. Li</strong>, X. Yang*, A. Cao*, K. Fan, Y. Liu, C. Wang, and Q.Niu (2024). Label Noise-Robust Learning for Microseismic Arrival Time Picking. <strong>In Revision.</strong> [[Code]](https://github.com/senli1073/LNRL)
+- Kameda, K., <strong>Lu, Z.</strong>, Fukui, M., 2022. Comparison of the productivity of public capital by project type: Central-government, subsidized-local, and unsubsidized-local projects in Japan. Japan and the World Economy 61, 101119. [[Papper]](https://doi.org/10.1016/j.japwor.2022.101119)
 
-- X. Yang, <strong>S. Li</strong>, A. Cao*, C. Wang*, Y. Liu, X. Bai, and Q. Niu (2024). Deep Transfer Learning for P-wave Arrival Identification and Automatic Seismic Source Location in Underground Mines. <strong>International Journal of Rock Mechanics and Mining Sciences</strong>. [[Paper]](https://doi.org/10.1016/j.ijrmms.2024.105888)
+- Huo, W.;Chen, X.;<strong>Lu, Z.</strong>, 2023. Economic and Environmental Welfare Effects of Heterogeneous Carbon Pricing Policies. Finance ＆ Economics, 12, 82-97. (in Chinese) [[Papper]](https://kns.cnki.net/kcms/detail/detail.aspx?filename=CJKX202312012&dbname=cjfdtotal&dbcode=CJFD&v=MDAwNDFyQ1VSNzZmWk9ScEZ5N25VYjNKSmlmQWRyRzRITkxOclk5RVpvUjZEZzgvemhZVTd6c09UM2lRclJjekY=)
 
-- <strong>S. Li</strong>, X. Yang*, A. Cao*, C. Wang, Y. Liu, Y. Liu, and Q. Niu (2024). SeisT: A Foundational Deep-Learning Model for Earthquake Monitoring Tasks. <strong>IEEE Transactions on Geoscience and Remote Sensing</strong>. [[Paper]](https://doi.org/10.1109/TGRS.2024.3371503) [[Code]](https://github.com/senli1073/SeisT)
+- <strong>Lu, Z.</strong>, Kameda, K., 2024. Impact of fiscal policies on the labor market with search friction: An estimated DSGE model for Japan. Journal of the Japanese and International Economies 72, 101315. 
+[[Papper]](https://doi.org/10.1016/j.jjie.2024.101315)
 
-- A. Cao, X. Yang, C. Wang*, <strong>S. Li</strong>, Y. Liu, L. Dou, and Q. Niu (2023). High-Precision Phase Picking and Automatic Source Locating Method for Seismicity in Mines Based on Deep Transfer Learning. <strong>Journal of China Coal Society</strong>. [[Paper]](https://doi.org/10.13225/j.cnki.jccs.2023.0095)
-
-- A. Cao, Y. Liu, X. Yang*, <strong>S. Li</strong>, C. Wang, X. Bai, and Y. Liu (2022). Physical Index and Data Fusion-Driven Method for Coal Burst Prediction in Time Sequence. <strong>Journal of China Coal Society</strong>. [[Paper]](https://doi.org/10.13225/j.cnki.jccs.2022.0680)
-
-- X. Yang, X. Yu, C. Zhang, <strong>S. Li</strong>, and Q. Niu (2021). MineGPS: Battery-Free Localization Base Station for Coal Mine Environment. <strong>IEEE Communications Letters</strong>. [[Paper]](https://doi.org/10.1109/LCOMM.2021.3081593)
-
+- Yoshino, N., Kameda, K., Miyamoto, H., <strong>Lu, Z.</strong>, 2024. COMPARISON OF VARIOUS FISCAL POLICIES IN THE FACE OF DIFFERENT DEMOGRAPHIC STAGES. Singapore Econ. Rev. 69, 1473–1497. [[Papper]](https://doi.org/10.1142/S0217590824450097)
