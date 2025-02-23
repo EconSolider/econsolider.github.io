@@ -1,6 +1,6 @@
 
 
-[![Zhenkun Lu](https://img.shields.io/badge/senli1073-github-blue?logo=github)](https://github.com/EconSolider)
+[[My Github Page]](https://github.com/EconSolider)
 
 Hello and welcome to my personal website! 
 
