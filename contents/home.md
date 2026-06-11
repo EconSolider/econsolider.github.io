@@ -14,8 +14,10 @@ lzk1149611042[at]gmail.com
 
 #### Education
 
-Ph.D., School of Policy Studies, Kwansei Gakuin University, 2022—2025. 
-M.A., School of Policy Studies, Kwansei Gakuin University, 2020—2022. 
+Ph.D., School of Policy Studies, Kwansei Gakuin University, 2022—2025.
+
+M.A., School of Policy Studies, Kwansei Gakuin University, 2020—2022.
+
 B.A., School of Policy Studies, Kwansei Gakuin University, 2016—2020.
 
 #### Research Interests
