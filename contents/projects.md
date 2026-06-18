@@ -12,3 +12,7 @@
 - **Publication-ready output**: delivers journal-quality vector figures in PDF alongside the model code, run scripts, and derivation notes.
 
 **Built with**: Claude Code · Dynare 7.1 · MATLAB / Octave · MATLAB MCP server (optional).
+
+**Collaborators**
+
+- [Jiannan (Jay) Jiang](https://jayjiangecon.github.io/) — Ph.D. student in Economics at The University of Texas at Austin, working on macroeconomics, textual data analysis, and machine learning applications in economics.
