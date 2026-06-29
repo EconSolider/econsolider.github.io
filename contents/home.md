@@ -2,8 +2,7 @@
 
 Hello and welcome to my personal website!
 
-<!-- Temporarily hidden: I am a Postdoctoral Researcher at the Research Center for Finance Frontiers (RCFF), PBC School of Finance, Tsinghua University. Prior to this, -->
-I worked as a specially-appointed assistant professor (AP) at Kansai Gakuin University, Department of School of Policy Studies.
+I am a Postdoctoral Researcher at the Research Center for Finance Frontiers (RCFF), PBC School of Finance, Tsinghua University. Prior to this, I worked as a specially-appointed assistant professor (AP) at Kansai Gakuin University, Department of School of Policy Studies.
 
 My academic career is dedicated to macroeconomic research, with a primary focus on analyzing the macro impacts of fiscal policy. I am passionate about understanding how government fiscal decisions influence labor market and cyclical movements of the economy.
 
