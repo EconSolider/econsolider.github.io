@@ -10,6 +10,8 @@ Beyond my research, I have a strong interest in programming, which enables me to
 
 #### Email
 
+lu-zk[at]mail.tsinghua.edu.cn
+
 lzk1149611042[at]gmail.com
 
 #### Education
