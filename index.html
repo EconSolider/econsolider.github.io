@@ -65,7 +65,7 @@
             }
         };
     </script>
-    <script type="text/javascript" id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <script type="text/javascript" id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3.2.2/es5/tex-mml-chtml.js"></script>
     
     <!-- Core JS-->
     <script type="text/javascript" src="static/js/js-yaml.min.js"></script>
@@ -79,30 +79,33 @@
         <div class="container px-5">
             <a id="page-top-title" class="navbar-brand fw-bold" href="#page-top"></a>
             <!-- <a href="#page-top"><img src="static/assets/img/CUMT_LOGO.svg" style="width: 11rem;"></a> -->
+            <div class="lang-switch" role="group" aria-label="Language / 语言">
+                <button type="button" data-lang="en" aria-pressed="true" class="active">EN</button><button type="button" data-lang="zh" aria-pressed="false" lang="zh-CN">中</button>
+            </div>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive"
                 aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-                MENU
+                <span data-i18n="nav-menu">MENU</span>
                 <i class="bi-list"></i>
             </button>
             <div class="collapse navbar-collapse" id="navbarResponsive">
                 <ul class="navbar-nav ms-auto me-4 my-3 my-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link me-lg-3" href="#page-top">HOME</a>
+                        <a class="nav-link me-lg-3" href="#page-top" data-i18n="nav-home">HOME</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link me-lg-3" href="#publications">PUBLICATIONS</a>
+                        <a class="nav-link me-lg-3" href="#publications" data-i18n="nav-publications">PUBLICATIONS</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link me-lg-3" href="#awards">AWARDS</a>
+                        <a class="nav-link me-lg-3" href="#awards" data-i18n="nav-awards">AWARDS</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link me-lg-3" href="#teaching">TEACHING</a>
+                        <a class="nav-link me-lg-3" href="#teaching" data-i18n="nav-teaching">TEACHING</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link me-lg-3" href="#workinprogress">WORK IN PROGRESS</a>
+                        <a class="nav-link me-lg-3" href="#workinprogress" data-i18n="nav-workinprogress">WORK IN PROGRESS</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link me-lg-3" href="#projects">PROJECTS</a>
+                        <a class="nav-link me-lg-3" href="#projects" data-i18n="nav-projects">PROJECTS</a>
                     </li>
 
                 </ul>
@@ -123,7 +126,7 @@
     <!-- Photo -->
     <div class="container px-5">
         <div id="avatar">
-            <img class="shadow" src="static/assets/img/photo.png">
+            <img class="shadow" src="static/assets/img/photo.png" alt="Zhenkun Lu">
         </div>
     </div>
     <!-- Photo -->
@@ -144,7 +147,7 @@
     <section class="bg-gradient-primary-to-secondary-gray py-5" id="publications">
         <div class="container px-5">
             <header>
-                <h2 id="publications-subtitle"><i class="bi bi-file-text-fill"></i>&nbsp;PUBLICATIONS</h2>
+                <h2 id="publications-subtitle"><i class="bi bi-file-text-fill"></i>&nbsp;<span data-i18n="publications-title">PUBLICATIONS</span></h2>
             </header>
             <div class="main-body" id="publications-md"></div>
 
@@ -156,7 +159,7 @@
     <section class="bg-gradient-primary-to-secondary-light py-5" id="awards">
         <div class="container px-5">
             <header>
-                <h2 id="awards-subtitle"><i class="bi bi-award-fill"></i>&nbsp;AWARDS</h2>
+                <h2 id="awards-subtitle"><i class="bi bi-award-fill"></i>&nbsp;<span data-i18n="awards-title">AWARDS</span></h2>
             </header>
             <div class="main-body" id="awards-md"></div>
 
@@ -168,7 +171,7 @@
     <section class="bg-gradient-primary-to-secondary-gray py-5" id="teaching">
         <div class="container px-5">
             <header>
-                <h2 id="teaching-subtitle"><i class="bi bi-mortarboard-fill"></i>&nbsp;Teaching</h2>
+                <h2 id="teaching-subtitle"><i class="bi bi-mortarboard-fill"></i>&nbsp;<span data-i18n="teaching-title">TEACHING</span></h2>
             </header>
             <div class="main-body" id="teaching-md"></div>
 
@@ -180,7 +183,7 @@
     <section class="bg-gradient-primary-to-secondary-light py-5" id="workinprogress">
         <div class="container px-5">
             <header>
-                <h2 id="workinprogress-subtitle"><i class="bi bi-file-text-fill"></i>&nbsp;Work in Progress</h2>
+                <h2 id="workinprogress-subtitle"><i class="bi bi-hourglass-split"></i>&nbsp;<span data-i18n="workinprogress-title">WORK IN PROGRESS</span></h2>
             </header>
             <div class="main-body" id="workinprogress-md"></div>
     
@@ -192,7 +195,7 @@
     <section class="bg-gradient-primary-to-secondary-gray py-5" id="projects">
         <div class="container px-5">
             <header>
-                <h2 id="projects-subtitle"><i class="bi bi-code-square"></i>&nbsp;Projects</h2>
+                <h2 id="projects-subtitle"><i class="bi bi-code-square"></i>&nbsp;<span data-i18n="projects-title">PROJECTS</span></h2>
             </header>
             <div class="main-body" id="projects-md"></div>
 
@@ -207,7 +210,7 @@
                 <div id="copyright-text" class="mb-2"></div>
                 <a id="github-link" href="https://github.com/EconSolider">Github</a>
                 <span class="mx-1">&middot;</span>
-                <a id="license-link" href="https://github.com/EconSolider/econsolider.github.io/blob/main/LICENSE">License</a>
+                <a id="license-link" href="https://github.com/EconSolider/econsolider.github.io/blob/main/LICENSE" data-i18n="license-link">License</a>
             </div>
         </div>
     </footer>

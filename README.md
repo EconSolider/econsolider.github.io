@@ -1,41 +1,36 @@
+# Zhenkun Lu's Academic Homepage
 
-### 1. Edit page content
+Source of <https://econsolider.github.io>, a static site served by GitHub Pages (no build step).
 
-(1) Go to the folder where you want to store your project, and clone the new repository:
+## Structure
+
 ```
-git clone https://github.com/<username>/<username>.github.io.git
-```
-The directory structure is as follows:
-
-```.
 .
-├── contents
-└── static
-    ├── assets
-    │   └── img
-    ├── css
-    └── js
+├── index.html            # page skeleton: navbar, sections, footer
+├── contents/
+│   ├── config.yml        # site title, header text, copyright (keys map to element ids)
+│   └── *.md              # one Markdown file per section
+└── static/
+    ├── assets/img/       # background.jpeg, photo.png
+    ├── css/main.css      # custom styles (styles.css is the Bootstrap theme)
+    └── js/scripts.js     # loads config.yml and renders contents/*.md
 ```
 
-(2) Modify the content of each section, which corresponds to `contents/*.md`.
+## Editing
 
-(3) Adjust the title, copyright information, and other text of the website in `contents/config.yml`
+- **Update content**: edit the matching file in `contents/`.
+- **Add a section**: add a `<section>` and a nav link in `index.html`, add the name to `section_names` in `static/js/scripts.js`, and create `contents/<name>.md`.
 
-(4) Replace background image and photo with new ones for your web pages in `static/assets/img/`
+## Local preview
 
-(5) Push it: 
+Content is loaded with `fetch`, so opening `index.html` directly from disk shows empty sections. Serve the folder over HTTP instead:
+
 ```
-git commit -am 'init'
-git push
+python -m http.server 8000
 ```
 
+Then open <http://localhost:8000>.
 
-### 2. Enjoy
+## Credits
 
-Fire up a browser and go to `https://econsolider.github.io`
-
-
-
-## License
-
-Copyright Sen Li, 2023. Licensed under an MIT license. You can copy and mess with this template.
+Based on [academic-homepage-template](https://github.com/senli1073/academic-homepage-template) by Sen Li (MIT License).
