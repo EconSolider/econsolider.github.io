@@ -81,7 +81,18 @@ function setupAbstracts(container, lang) {
             btn.setAttribute('aria-expanded', String(open));
             btn.classList.toggle('open', open);
         });
-        abs.parentNode.insertBefore(btn, abs);
+        // Keep "[Paper] [Abstract]" together on one line
+        const group = document.createElement('span');
+        group.className = 'cite-links';
+        let prev = abs.previousSibling;
+        while (prev && prev.nodeType === Node.TEXT_NODE && !prev.textContent.trim()) prev = prev.previousSibling;
+        abs.parentNode.insertBefore(group, abs);
+        abs.parentNode.insertBefore(document.createTextNode(' '), group);
+        if (prev && prev.nodeName === 'A') {
+            group.appendChild(prev);
+            group.appendChild(document.createTextNode(' '));
+        }
+        group.appendChild(btn);
     });
 }
 

@@ -1,6 +1,4 @@
-### Dynare-Copilot：AI 驱动的 DSGE 模型开发工具
-
-[[GitHub]](https://github.com/EconSolider/dynare-copilot)
+### Dynare-Copilot：AI 驱动的 DSGE 模型开发工具 [[GitHub]](https://github.com/EconSolider/dynare-copilot)
 
 **Dynare-Copilot** 是一个 [Claude Code](https://claude.com/claude-code) 技能（skill），能够将宏观经济学直觉转化为可运行的 Dynare `.mod` 文件，并给出经过验证的稳态与脉冲响应函数。它遵循“先推导、后翻译、逐步验证”的严格工作流程，以避免 DSGE 建模中常见的隐性错误。
 

@@ -52,8 +52,8 @@ html {
     font-weight: 400;
 }
 
-/* Chinese header: keep each research field on one line; wrap only between fields */
-.top-section h2 .nowrap {
+/* Keep a phrase (research field, name) on one line; wrap only between phrases */
+.nowrap {
     white-space: nowrap;
 }
 
@@ -85,9 +85,61 @@ section header h2 {
 
 section .main-body {
     font-family: "Times New Roman", Times, serif;
-    font-size: 1.3rem;
+    font-size: 1.2rem;
     font-weight: 400;
-    line-height: 2.4rem;
+    line-height: 1.8;
+    max-width: 52rem;
+}
+
+section .main-body p {
+    margin-bottom: 0.9rem;
+}
+
+/* Sub-headings (course / project titles, home page headings) */
+section .main-body h3 {
+    font-size: 1.45rem;
+    line-height: 1.4;
+    margin: 2.2rem 0 0.6rem;
+}
+
+section .main-body h4 {
+    font-size: 1.25rem;
+    line-height: 1.4;
+    margin: 1.8rem 0 0.5rem;
+}
+
+section .main-body h3:first-child,
+section .main-body h4:first-child {
+    margin-top: 0;
+}
+
+/* [GitHub] link placed at the end of a title line */
+section .main-body h3 a {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 1rem;
+    font-weight: 400;
+    margin-left: 0.3rem;
+    white-space: nowrap;
+}
+
+/* Papers, grants: one clearly separated entry per item */
+#publications-md > ul > li,
+#workinprogress-md > ul > li,
+#awards-md > ul > li {
+    margin-bottom: 0.85rem;
+}
+
+#publications-md > ul > li:last-child,
+#workinprogress-md > ul > li:last-child,
+#awards-md > ul > li:last-child {
+    margin-bottom: 0;
+}
+
+/* Home page: email and education as compact lists without bullets */
+#home-md ul {
+    list-style: none;
+    padding-left: 0;
+    margin-bottom: 0;
 }
 
 section .main-body strong {
@@ -219,7 +271,7 @@ section .main-body .abstract-toggle {
     border: none;
     background: none;
     padding: 0;
-    margin-left: 0.35rem;
+    margin-left: 0;
     font-family: inherit;
     font-size: 1.05rem;
     color: var(--h-title-color);
@@ -243,9 +295,13 @@ section .main-body .abstract-toggle.open .bi {
 
 section .main-body .abstract {
     font-size: 0.95rem;
-    line-height: 1.6rem;
+    line-height: 1.65;
     color: #6c757d;
-    margin: 0.3rem 0 0.9rem;
+    margin: 0.35rem 0 0.2rem;
+}
+
+section .main-body .cite-links {
+    white-space: nowrap;
 }
 
 .lang-zh section .main-body .abstract {
@@ -253,12 +309,46 @@ section .main-body .abstract {
 }
 
 
-/* Chinese page: add CJK fallbacks to the existing font stacks */
-.lang-zh section .main-body {
-    font-family: "Times New Roman", Times, "Noto Serif SC", "Source Han Serif SC", "Songti SC", "STSong", "SimSun", serif;
+/* Chinese page: Latin text keeps the original fonts, Chinese characters use Noto Sans SC (思源黑体) */
+body.lang-zh {
+    --bs-body-font-family: Mulish, "Noto Sans SC", -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Microsoft YaHei", sans-serif;
 }
 
+.lang-zh section .main-body {
+    font-family: "Times New Roman", Times, "Noto Sans SC", "PingFang SC", "Microsoft YaHei", sans-serif;
+}
+
+.lang-zh .font-alt,
+.lang-zh #mainNav .navbar-brand,
 .lang-zh section header h2,
 .lang-zh .header .nav-link {
-    font-family: "Kanit", -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Microsoft YaHei", sans-serif !important;
+    font-family: "Kanit", "Noto Sans SC", -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Microsoft YaHei", sans-serif !important;
+}
+
+.lang-zh section header h2 {
+    font-weight: 700;
+}
+
+.lang-zh section .main-body h3,
+.lang-zh section .main-body h4 {
+    font-family: "Newsreader", "Noto Sans SC", -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Microsoft YaHei", sans-serif;
+}
+
+
+/* Phones: smaller section titles so the name line and headings don't dominate */
+@media screen and (max-width: 575.98px) {
+    section header h2 {
+        font-size: 1.8rem;
+        line-height: 1.35;
+        padding-bottom: 0.5rem;
+    }
+
+    /* leave room for the photo that overlaps the top-right of the home section */
+    #home header {
+        padding-right: 110px;
+    }
+
+    #home header h2 {
+        font-size: 1.55rem;
+    }
 }
