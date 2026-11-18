@@ -14,3 +14,16 @@
 **Collaborators**
 
 - [Jiannan (Jay) Jiang](https://jayjiangecon.github.io/) — Ph.D. student in Economics at The University of Texas at Austin, working on macroeconomics, textual data analysis, and machine learning applications in economics.
+
+### AFNS: Arbitrage-Free Nelson–Siegel Models for Stata [[GitHub]](https://github.com/EconSolider/afns)
+
+**AFNS** is a Stata package for estimating the three-factor arbitrage-free Nelson–Siegel term structure model of Christensen, Diebold and Rudebusch (2011). It extracts level, slope and curvature factors from bond yields and decomposes fitted yields into risk-neutral yields and term premia.
+
+**Key features**
+
+- **Estimation**: combines Kalman-filter maximum likelihood with an analytic gradient and factor smoothing.
+- **Yield decomposition**: provides factors, fitted yields and term premia through `predict`, including at maturities outside the estimation set.
+- **Curve conversion**: includes `parzero` to bootstrap zero-coupon yields from par yields, also available through the `parinput` option.
+- **Flexible specifications and diagnostics**: supports wide and long data, parameter restrictions and calendar-based observation intervals, with postestimation checks of fit and factor dynamics.
+
+**Built with**: Stata 16+ · Mata. The compiled library is included, with no external dependencies. MIT licensed.
